@@ -2,10 +2,10 @@
  * Total-ECH: 为 CDN 全面开启 ECH 的 DoH 服务
  */
 
-const UPSTREAM_DNS = 'https://dns.google/dns-query';
+const UPSTREAM_DNS = 'https://jp-kix.doh.sb/dns-query';
 const UPSTREAM_JSON = 'https://dns.google/resolve';
-const API_PATH = '/doh-ech-test'; //您可以自定义path
-const TEST_PATH = '/doh-test'; //您可以自定义path
+const API_PATH = '/static/halo/v1'; //您可以自定义path
+const TEST_PATH = '/test/halo/v1'; //您可以自定义path
 
 // --- 静态配置 ---
 const TWITTER_DOMAINS = ["twimg.com", "twitter.com", "x.com", "t.co"]; //您可以添加某域名强制解析到CF，填写 x.com 时包含 *.x.com，适用于仅ipv4访问或多CDN负载均衡的站点
